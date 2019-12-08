@@ -1,4 +1,4 @@
-// Same as 'create-thing.js' but using ES5 syntax
+// Same as 'create-thing.js' but using ES5 functions
 function createThing({ thingValidator, thingRepository }) {
   return function(name) {
     const thing = { name };
